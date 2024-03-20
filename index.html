@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Manager</title>
+    <link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+
+</head>
+
+<body>
+
+    <div class="listManagerContainer">
+
+        <h1>List</h1>
+
+        <ul>
+            <li onclick="selected(this)">Animals</li>
+            <li onclick="selected(this)">Mosaic</li>
+            <li onclick="selected(this)">Sculputures</li>
+        </ul>
+
+		<div class="btnsContainer">
+
+			<a href="javascript:add(1)">Add beg</a> <!-- Add to the beginning -->
+			<a href="javascript:add(2)">Add end</a> <!-- Add to the end -->
+			<a href="javascript:add(3)">Add Abc</a> <!-- Add in alphabetical order -->
+			<a href="javascript:del()">Delete</a> <!-- Delete selected or last-->
+
+		</div>
+
+    </div>
+
+</body>
+
+</html>
