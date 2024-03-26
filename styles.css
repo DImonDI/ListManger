@@ -66,10 +66,16 @@ body{
     border-radius: 0px 0px 15px 15px;
 }
 
+.listManagerContainer ul li:first-child:last-child{
+    border-radius: 15px;
+}
+
 .listManagerContainer ul li:hover{
     background-color: rgb(255, 255, 255);
 
 }
+
+
 /* list */
 
 /* buttons */
